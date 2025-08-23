@@ -60,16 +60,19 @@ Ce pipeline permet de :
 ## 📁 Structure du dépôt
 
 ```
-/screenshots/
-Google_sheet_data.jpg → Capture du Google Sheet structuré
-OpenAI_platform.jpg → Panneau de configuration assistant OpenAI (modèle, température, top_p)
-Weather_comment.jpg → Exemple d’analyse météo générée par l’assistant
-Workflow_Make_assistant_IA.jpg → Diagramme du scénario Make.com reliant webhook, assistant et sortie document
+Workflow_Météo/
+├── README.md                 # Documentation principale (version anglaise)
+├── README_fr.md              # Documentation en français
+│
+├── screenshots/              # Captures d’écran du workflow et des sorties
+│   ├── Google_sheet_data.jpg       # Sortie structurée dans Google Sheet
+│   ├── OpenAI_platform.jpg         # Configuration de l’assistant OpenAI (modèle, température, top_p)
+│   ├── Weather_comment.jpg         # Exemple d’analyse météo générée
+│   └── Workflow_Make_assistant_IA.jpg # Diagramme du workflow Make.com (webhook → assistant → sortie)
+│
+└── system_instruction/       # Prompt système et configuration du parsing
+    └── system_instruction.txt     # Prompt système complet (parsing + formatage)
 
-/system_instruction/
-system_instruction.txt → Prompt système complet donné à l’assistant (parsing + formatage)
-
-README.md → Documentation principale (ce fichier)
 ```
 
 ---
