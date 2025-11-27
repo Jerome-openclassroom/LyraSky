@@ -72,6 +72,9 @@ Workflow_Météo/
 │
 └── system_instruction/       # Prompt système et configuration du parsing
     └── system_instruction.txt     # Prompt système complet (parsing + formatage)
+└── code/       # code et blueprints
+    └── Integration Webhooks.blueprint.json    #  blueprint pour reproduire le Workflow
+
 
 ```
 
