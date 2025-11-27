@@ -71,6 +71,10 @@ Meteorological_Workflow/
 │
 └── system_instruction/       # Assistant system prompt and parsing setup
     └── system_instruction.txt     # Full system prompt (input parsing + formatting)
+│
+└── code/       # code and blueprints
+    └── Integration Webhooks.blueprint.json     # Blueprint of the workflow
+
 
 ```
 ---
